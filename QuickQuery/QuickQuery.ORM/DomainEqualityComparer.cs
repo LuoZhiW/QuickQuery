@@ -9,7 +9,7 @@ namespace QuickQuery.ORM
     public class DomainEqualityComparer : IEqualityComparer<string>
     {
         public bool Equals(string x, string y)
-        {
+        { 
             bool flag = string.IsNullOrEmpty(x) || string.IsNullOrEmpty(y);
             bool result;
             if (flag)
