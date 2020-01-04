@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
+﻿using System.ComponentModel;
 
 namespace QuickQuery.ORM
 {
     public sealed class SQLFieldAttributeEx
     {
         /// <summary>
-        /// 是否忽略sql字段
+        /// 是否忽略sql字段。
         /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
+        /// <param name="item">item。</param>
+        /// <returns>bool。</returns>
         public static bool GetIsIgnore(object[] item)
         {
             bool flag = item == null || item.Length == 0;
@@ -39,10 +36,10 @@ namespace QuickQuery.ORM
         }
 
         /// <summary>
-        /// 是否忽略sql字段
+        /// 是否忽略sql字段。
         /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
+        /// <param name="item">item。</param>
+        /// <returns>bool。</returns>
         public static bool GetIsIgnore(AttributeCollection item)
         {
             bool flag = item == null || item.Count == 0;

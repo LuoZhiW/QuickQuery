@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace QuickQuery.ORM
 {
@@ -14,11 +12,22 @@ namespace QuickQuery.ORM
             }
         }
 
+        /// <summary>
+        /// Equals。
+        /// </summary>
+        /// <param name="x">x。</param>
+        /// <param name="y">y。</param>
+        /// <returns></returns>
         public bool Equals(string x, string y)
         {
             return x.ToUpper() == y.ToUpper();
         }
 
+        /// <summary>
+        /// GetHashCode。
+        /// </summary>
+        /// <param name="obj">obj。</param>
+        /// <returns></returns>
         public int GetHashCode(string obj)
         {
             return obj.GetHashCode();

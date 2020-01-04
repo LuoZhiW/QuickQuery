@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace QuickQuery.ORM
 {
@@ -49,7 +47,7 @@ namespace QuickQuery.ORM
         }
 
         /// <summary>
-        /// 将指定字符串中的格式项替换为指定数组中相应对象的字符串表示形式。文件格式[yyyy-MM-dd_系统日志.log]
+        /// 将指定字符串中的格式项替换为指定数组中相应对象的字符串表示形式。文件格式[yyyy-MM-dd_系统日志.log]。
         /// </summary>
         /// <param name="format"> 复合格式字符串。</param>
         /// <param name="args">一个对象数组，其中包含零个或多个要设置格式的对象。</param>
