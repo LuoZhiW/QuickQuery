@@ -3,7 +3,7 @@
 namespace QuickQuery.ORM
 {
     public class IEqualityComparerString: IEqualityComparer<string>
-    {
+    { 
         public static IEqualityComparerString Comparer
         {
             get
