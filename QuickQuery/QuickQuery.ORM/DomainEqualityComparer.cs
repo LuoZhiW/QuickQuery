@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace OQ.ORM
+namespace QuickQuery.ORM
 {
     /// <summary>
-    /// 域名比较器,支持泛解析(*.jioukeji.com)
+    /// 域名比较器,支持泛解析
     /// </summary>
     public class DomainEqualityComparer : IEqualityComparer<string>
     {
