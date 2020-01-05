@@ -9,7 +9,7 @@ namespace QuickQuery.ORM
             get
             {
                 return new IEqualityComparerString();
-            }
+            }  
         }
 
         /// <summary>

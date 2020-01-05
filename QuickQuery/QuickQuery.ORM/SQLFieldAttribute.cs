@@ -2,6 +2,9 @@
 
 namespace QuickQuery.ORM
 {
+    /// <summary>
+    /// QuickQuery属性。
+    /// </summary>
     public class SQLFieldAttribute: Attribute
     {
         /// <summary>

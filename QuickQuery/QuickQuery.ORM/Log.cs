@@ -3,6 +3,9 @@ using System.IO;
 
 namespace QuickQuery.ORM
 {
+    /// <summary>
+    /// 日志操作类。
+    /// </summary>
     public class Log
     {
         private static object writelock = new object();
